@@ -16,6 +16,10 @@ public class App
         ApplicationContext context =  new ClassPathXmlApplicationContext("src/config.xml");
         Student student1 = (Student) context.getBean("student1");
         System.out.println(student1);
+        System.out.println("hello");
+  
+
+// test are goint on boom 
 
     }
 }
